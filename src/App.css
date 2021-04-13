@@ -1,0 +1,73 @@
+.service-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.service-item {
+  display: flex;
+  margin-top: 2%;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50%;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.service-buttons {
+  margin-top: 1%;
+  margin-left: auto;
+  padding-right: 5px;
+}
+
+.service-form {
+  margin-top: 2%;
+  margin-left: 20px;
+}
+
+.form-name label,
+.form-name input,
+.form-price label,
+.form-price input,
+.form-content label,
+.form-content textarea {
+  display: block;
+}
+
+.loading {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border-top: 6px solid red;
+  border-right: 6px solid #05d4f8;
+  border-left: 6px solid #6504a5;
+  border-bottom: 6px solid #040d5f;
+  width: 25px;
+  height: 25px;
+  animation: spin 1s linear infinite;
+}
+
+.error {
+  display: flex;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
